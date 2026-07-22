@@ -1,6 +1,6 @@
 ## 📸 Website Preview
 
-![Portfolio Screenshot](portfolio.png)
+![Portfolio Screenshot](githubprofile.png)
 # 🌐 Portfolio Website
 
 Welcome to my personal portfolio website! This website showcases my skills, projects, achievements, and contact information.
