@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 
+<meta charset="UTF-8">
 <title>Lokesh | Full Stack Developer Portfolio</title>
 
 <meta name="description" content="Lokesh - Aspiring Full Stack Developer, Data Analytics and Machine Learning enthusiast">
@@ -12,80 +13,77 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1055/1055687.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
 
-
 <nav>
 
-<h2>Lokesh</h2>
+<div class="brand">
+<span class="dots"><i class="dot dot-r"></i><i class="dot dot-y"></i><i class="dot dot-g"></i></span>
+<h2>lokesh<span class="ext">.dev</span></h2>
+</div>
 
-<div>
+<div class="tabs">
 
-<a href="#about">About</a>
-<a href="#skills">Skills</a>
-<a href="#projects">Projects</a>
-<a href="#certificates">Certificates</a>
-<a href="#contact">Contact</a>
+<a href="#about">about<span class="ext">.py</span></a>
+<a href="#skills">skills<span class="ext">.py</span></a>
+<a href="#projects">projects<span class="ext">.py</span></a>
+<a href="#certificates">certs<span class="ext">.md</span></a>
+<a href="#contact">contact<span class="ext">.sh</span></a>
 
 </div>
 
 </nav>
 
 
-
-
-
 <section class="hero">
 
-<div>
+<div class="hero-inner">
 
+<p class="path">~/portfolio <span class="sep">›</span> profile.py</p>
 
 <h1>
-Hi, I'm <span>Lokesh</span>
+<span class="tok-comment">#</span> Hi, I'm <span class="tok-class">Lokesh</span>
 </h1>
 
-
 <h2 class="glow">
-Aspiring <span id="typing"></span>
+<span class="tok-kw">role</span><span class="tok-punc"> = </span><span class="tok-str">"Aspiring <span id="typing"></span>"</span>
 </h2>
 
-
-<p>
+<p class="lead">
 
 I build websites, explore Data Analytics and Machine Learning.
 Passionate about creating real-world technology solutions.
 
 </p>
 
-
-<a class="btn" href="#projects">
-View Projects
+<div class="hero-actions">
+<a class="btn btn-primary" href="#projects">
+<span class="prompt">run</span> view_projects()
 </a>
 
-
-<a class="btn" href="#contact">
-Contact
+<a class="btn btn-ghost" href="#contact">
+<span class="prompt">run</span> contact_me()
 </a>
-
-
 </div>
 
+</div>
 
 </section>
 
 
-
-
-
-
 <section id="about">
 
-<h1>About Me</h1>
-
+<p class="lineno">08</p>
+<h1><span class="tok-comment">#</span> About Me</h1>
 
 <div class="card">
 
@@ -100,66 +98,62 @@ I enjoy learning new technologies and building practical projects.
 
 </div>
 
-
 </section>
-
-
-
-
-
 
 
 <section id="skills">
 
-<h1>Skills</h1>
+<p class="lineno">24</p>
+<h1><span class="tok-comment">#</span> Skills</h1>
 
+<div class="card">
 
-<div class="card skills">
-
-
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
-<span>React JS (Learning)</span>
-
-<span>Python</span>
-<span>Flask</span>
-
-<span>NumPy</span>
-<span>Pandas</span>
-<span>Matplotlib</span>
-<span>Scikit Learn</span>
-
-<span>Git</span>
-<span>GitHub</span>
-<span>Figma</span>
-<span>Excel</span>
-
-
+<p class="group-label"><span class="tok-comment">// frontend</span></p>
+<div class="skills">
+<span class="tok-frontend">HTML</span>
+<span class="tok-frontend">CSS</span>
+<span class="tok-frontend">JavaScript</span>
+<span class="tok-frontend">React JS (Learning)</span>
 </div>
 
+<p class="group-label"><span class="tok-comment">// backend</span></p>
+<div class="skills">
+<span class="tok-backend">Python</span>
+<span class="tok-backend">Flask</span>
+</div>
+
+<p class="group-label"><span class="tok-comment">// data &amp; ml</span></p>
+<div class="skills">
+<span class="tok-data">NumPy</span>
+<span class="tok-data">Pandas</span>
+<span class="tok-data">Matplotlib</span>
+<span class="tok-data">Scikit Learn</span>
+</div>
+
+<p class="group-label"><span class="tok-comment">// tools</span></p>
+<div class="skills">
+<span class="tok-tools">Git</span>
+<span class="tok-tools">GitHub</span>
+<span class="tok-tools">Figma</span>
+<span class="tok-tools">Excel</span>
+</div>
+
+</div>
 
 </section>
 
 
-
-
-
-
-
 <section id="projects">
 
-
-<h1>Projects</h1>
+<p class="lineno">41</p>
+<h1><span class="tok-comment">#</span> Projects</h1>
 
 <div class="projects">
 
 
-<div class="card">
+<div class="card project-card">
 
-<div class="project-img">
-🌐
-</div>
+<div class="project-img">🌐</div>
 
 <h2>DevCircle</h2>
 
@@ -170,37 +164,31 @@ connect and explore members.
 
 <br>
 
-<p><b>Tech Stack:</b></p>
+<p class="stack-label"><span class="tok-comment">// stack</span></p>
 
 <div class="skills">
-<span>HTML</span>
-<span>CSS</span>
-<span>JavaScript</span>
-<span>Google Sheets</span>
+<span class="tok-frontend">HTML</span>
+<span class="tok-frontend">CSS</span>
+<span class="tok-frontend">JavaScript</span>
+<span class="tok-tools">Google Sheets</span>
 </div>
 
 <br>
 
-<a class="btn" href="https://lokeshloki23112007-ctrl.github.io/Devcircle-3/" target="_blank">
+<a class="btn btn-primary" href="https://lokeshloki23112007-ctrl.github.io/Devcircle-3/" target="_blank">
 Live Demo
 </a>
 
-<a class="btn" href="https://github.com/lokeshloki23112007-ctrl/Devcircle-3" target="_blank">
+<a class="btn btn-ghost" href="https://github.com/lokeshloki23112007-ctrl/Devcircle-3" target="_blank">
 GitHub
 </a>
 
 </div>
 
 
+<div class="card project-card">
 
-
-
-<div class="card">
-
-<div class="project-img">
-📊
-</div>
-
+<div class="project-img">📊</div>
 
 <h2>Restaurant Data Analysis</h2>
 
@@ -209,258 +197,132 @@ Analysed restaurant datasets to find insights using
 Python data analysis and visualization techniques.
 </p>
 
-
 <br>
 
-<p><b>Tech Stack:</b></p>
-
+<p class="stack-label"><span class="tok-comment">// stack</span></p>
 
 <div class="skills">
-
-<span>Python</span>
-<span>Pandas</span>
-<span>NumPy</span>
-<span>Matplotlib</span>
-<span>ML</span>
-
+<span class="tok-backend">Python</span>
+<span class="tok-data">Pandas</span>
+<span class="tok-data">NumPy</span>
+<span class="tok-data">Matplotlib</span>
+<span class="tok-data">ML</span>
 </div>
-
 
 <br>
 
-
-<a class="btn" href="https://colab.research.google.com/drive/1ONTxmLN7v1_Z1lW1FzzA4PeVV5H9Gr3U" target="_blank">
+<a class="btn btn-primary" href="https://colab.research.google.com/drive/1ONTxmLN7v1_Z1lW1FzzA4PeVV5H9Gr3U" target="_blank">
 Report
 </a>
 
-
-<a class="btn" href="https://github.com/lokeshloki23112007-ctrl/restaurant-data-analysis" target="_blank">
+<a class="btn btn-ghost" href="https://github.com/lokeshloki23112007-ctrl/restaurant-data-analysis" target="_blank">
 GitHub
 </a>
 
-
 </div>
 
 
 </div>
-
 
 </section>
-
-
-
-
-
-
-
 
 
 <section id="certificates">
 
-<h1>Certificates</h1>
+<p class="lineno">67</p>
+<h1><span class="tok-comment">#</span> Certificates</h1>
 
 <div class="projects">
 
-
 <div class="card certificate-card">
 <img src="assets/certificates/EMC certificate.jpg">
-
 <h2>EMC Certificate</h2>
-
-<p>
-Certificate of completion and achievement.
-</p>
-
+<p>Certificate of completion and achievement.</p>
 </div>
 
-
-
 <div class="card certificate-card">
-
 <img src="assets/certificates/Lets Upgrade certificate.jpg">
-
 <h2>Lets Upgrade Certificate</h2>
-
-<p>
-Completed learning program certification.
-</p>
-
+<p>Completed learning program certification.</p>
 </div>
 
-
-
-
-
-
-
-
-
 <div class="card certificate-card">
-
 <img src="assets/certificates/Skill duniya internship certificate.jpg">
-
 <h2>Skill Duniya Internship</h2>
-
-<p>
-Completed internship certification.
-</p>
-
+<p>Completed internship certification.</p>
 </div>
 
-
-
-
-
 <div class="card certificate-card">
-
 <img src="assets/certificates/skill duniya offer letter 01.jpg">
-
 <h2>Skill Duniya Offer Letter</h2>
-
-<p>
-Internship offer confirmation.
-</p>
-
+<p>Internship offer confirmation.</p>
 </div>
 
-
-
-
 <div class="card certificate-card">
-
 <img src="assets/certificates/skill duniya offer letter 02.jpg">
-
 <h2>Skill Duniya Offer Letter 02</h2>
-
-<p>
-Additional internship documentation.
-</p>
-
+<p>Additional internship documentation.</p>
 </div>
 
-
-
-
 <div class="card certificate-card">
-
 <img src="assets/certificates/Top engineer certificate.jpg">
-
 <h2>Top Engineer Certificate</h2>
-
-<p>
-Achievement certificate.
-</p>
-
+<p>Achievement certificate.</p>
 </div>
-
-
-
 
 <div class="card certificate-card">
-
 <img src="assets/certificates/UPeducators certificate.jpg">
-
 <h2>UP Educators Certificate</h2>
-
-<p>
-Learning achievement certificate.
-</p>
-
+<p>Learning achievement certificate.</p>
 </div>
-
-
-
-
-
 
 </div>
 
 </section>
-
-
-
-
-
 
 
 <section id="github">
 
-
-<h1>GitHub</h1>
-
+<p class="lineno">104</p>
+<h1><span class="tok-comment">#</span> GitHub</h1>
 
 <div class="card">
 
-
 <p>
-
 Explore my repositories, source code and project journey.
-
 </p>
-
 
 <br>
 
-
-<a class="btn" 
-href="https://github.com/lokeshloki23112007-ctrl"
-target="_blank">
-
+<a class="btn btn-primary" href="https://github.com/lokeshloki23112007-ctrl" target="_blank">
 GitHub Profile
-
 </a>
-
 
 </div>
 
-
 </section>
-
-
-
-
-
-
 
 
 <section id="contact">
 
+<p class="lineno">118</p>
+<h1><span class="tok-comment">#</span> Contact</h1>
 
-<h1>Contact</h1>
+<div class="card contact-card">
 
+<p><span class="tok-tag">email</span><span class="tok-punc">:</span> lokeshloki23112007@gmail.com</p>
 
-<div class="card">
+<p><span class="tok-tag">linkedin</span><span class="tok-punc">:</span> https://www.linkedin.com/in/lokesh2007/</p>
 
-
-<p>
-📧 Email: lokeshloki23112007@gmail.com
-</p>
-
-
-<p>
-🔗 LinkedIn: https://www.linkedin.com/in/lokesh2007/
-</p>
-
-
-<p>
-💻 GitHub: https://github.com/lokeshloki23112007-ctr
-</p>
-
+<p><span class="tok-tag">github</span><span class="tok-punc">:</span> https://github.com/lokeshloki23112007-ctr</p>
 
 </div>
-
 
 </section>
 
 
-
-
-
-
 <footer>
-
-© 2026 Lokesh | Developer Portfolio
-
+<p><span class="tok-comment">#</span> © 2026 Lokesh <span class="tok-punc">|</span> Developer Portfolio</p>
 </footer>
 
 
