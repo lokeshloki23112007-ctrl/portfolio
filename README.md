@@ -80,15 +80,7 @@ Open `index.html` in your preferred web browser.
 
 ---
 
-## 📸 Preview
 
-> Add a screenshot of your portfolio here.
-
-```md
-![Portfolio Preview](githubprofile.png)
-```
-
----
 
 ## 🌍 Live Demo
 
